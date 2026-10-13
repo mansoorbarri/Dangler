@@ -1,0 +1,17 @@
+# Personal configuration and generated deployment bindings
+.env*
+!.env.example
+.local/
+app/lakebed.json
+app/shared/local-domain-config.ts
+domain/wrangler.local.jsonc
+
+# Local data, backups, credentials, build output and tool caches
+data/
+.lakebed/
+.wrangler/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
